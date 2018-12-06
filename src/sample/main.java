@@ -13,7 +13,7 @@ public class main extends Application {
 	public void start(Stage primaryStage) throws Exception {
 
 		FXMLLoader loader = new FXMLLoader(getClass()
-				.getResource("pantalla.fxml"));
+				.getResource("bioshock.fxml"));
 		AnchorPane pane = loader.load();
 		Scene scene = new Scene(pane);
 		primaryStage.setScene(scene);
